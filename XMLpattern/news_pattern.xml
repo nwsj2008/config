@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="GBK"?>
+<bbs_pattern_body>
+	<item name="网易" module="news_163_topic">
+		<describe>
+			<url>http://news.163.com/</url>
+		</describe>
+
+		<title>
+				<title_xpath comment="相对路径">
+                 //DIV[@class='bg_endPage_blue clearfix']/DIV/H1
+                 </title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//SPAN[@class="crumb cDGray"]/A[3]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//SPAN[@class="info"]/A[1]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@id="endText"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//SPAN[@class="info"]
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@id="replycounttop"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+	<item name="凤凰" module="news_ifeng_topic">
+		<describe>
+			<url>http://news.ifeng.com/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@id="artical_topic"]
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id="theCurrent"]/A[2]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//SPAN[@id="source_place"]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@id="artical_real"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//SPAN[@id="publish_time"]
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@id="comment_count"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+
+	<item name="新浪" module="news_sina_topic">
+		<describe>
+			<url>http://news.sina.com.cn/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//H1[@id="artibodyTitle"]
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//P[@id="lo_links"]/A[2]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//SPAN[@id="media_name"]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class="blkContainerSblkCon"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//SPAN[@id="pub_date"]
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@class="f_c00"]/DIV[4]/SPAN
+			</reNum_xpath>
+		</reNum>
+	</item>
+
+	<item name="搜狐" module="news_sohu_topic">
+		<describe>
+			<url>http://news.sohu.com/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@id='contentA']/DIV[1]/H1
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id='location']/A[2]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//SPAN[@id='media_span']
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@id='contentText']
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='sourceTime']/DIV[2]
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@id='commA']
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+	<item name="雅虎" module="news_yahoo_topic">
+		<describe>
+			<url>http://news.cn.yahoo.com/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@id="content"]/H1
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id="nav"]/A[2]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@id="content"]/H2/SPAN[1]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class="text"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@id="content"]/H2/SPAN[1]
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@class="source"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+	<item name="中国新闻网" module="news_chinanews_topic">
+		<describe>
+			<url>http://www.chinanews.com.cn/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@class="left_bt"]
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//TD[@width="40%"]/A[4]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@class="left_time"]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class="left_zw"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class="left_time"]
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//DIV[@class="left_pl"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+	<item name="北京新闻网" module="news_beijingnews_topic">
+		<describe>
+			<url>http://beijing.qianlong.com/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@id="content"]/H1
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id="navThis"]/A[2]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@id="edit"]/SPAN[2]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@id="content"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">//SPAN[@id="Date"]</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@id="speak"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+	<item name="腾讯" module="news_qq_topic">
+		<describe>
+			<url>http://news.qq.com/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@id="C-Main-Article-QQ"]/DIV[1]/H1
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@class="Crumbs-Article-QQ"]/SPAN/A[2]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//SPAN[@class="where"]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@id="Cnt-Main-Article-QQ"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">//DIV[@class="info"]</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@class="num"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+<item name="太原铁路局" module="news_tytlj_topic">
+		<describe>
+			<url>http://www.tytlj.com.cn/newslist/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">/HTML/BODY/DIV[2]/TABLE/TR/TD[2]/TABLE/TR/TD/TABLE/TR/TD[2]/P</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">//TABLE[@id="table2-1"]/TR/TD[1]/A[2]</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">//TABLE[@id="table4"]/TR/TD/TABLE[3]/TR[1]</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">//TABLE[@id="table4"]/TR/TD/TABLE[2]/TR[1]/TD</content_xpath>
+		</content>
+
+		<time>
+		    <time_xpath comment="相对路径">/HTML/BODY/DIV[2]/TABLE/TR/TD[2]/TABLE/TR/TD/TABLE[3]/TR/TD</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">//DIV[@class="dsf"]</reNum_xpath>
+		</reNum>
+
+	</item>
+	
+	<item name="武汉铁路局" module="news_wh_topic">
+		<describe>
+			<url>http://www.whrailway.cn/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">//DIV[@class="L1_5"]/TABLE/TR[1]/TD[2]/H1</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">//DIV[@id="position"]/A[2]</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">//DIV[@class="detail_about"]</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">//SPAN[@class="newstitle"]</content_xpath>
+		</content>
+
+		<time>
+		    <time_xpath comment="相对路径">//DIV[@class="detail_about"]</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">//DIV[@class="dsf"]</reNum_xpath>
+		</reNum>
+
+	</item>
+	
+	<item name="中国铁道网" module="news_railcn_topic">
+		<describe>
+			<url>http://www.railcn.net/news/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">//DIV[@id="artibodyTitle"]/H1</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">//DIV[@id="lo_links"]/A[3]</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">//DIV[@id="art_source"]</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">//DIV[@id="artibody"]</content_xpath>
+		</content>
+
+		<time>
+		    <time_xpath comment="相对路径">//DIV[@id="art_source"]</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">//DIV[@class="dsf"]</reNum_xpath>
+		</reNum>
+
+	</item>
+	
+	<item name="铁道部" module="news_mor_topic">
+		<describe>
+			<url>http://www.china-mor.gov.cn/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">/HTML/BODY/DIV/FORM/TABLE[2]/TR/TD/DIV/TABLE/TR[2]/TD/H2[2]</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">/HTML/BODY/DIV/FORM/TABLE[2]/TR/TD/DIV/TABLE/TR/TD/A[2]</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+			//DIV[@class="dsf"]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">/HTML/BODY/DIV/FORM/TABLE[2]/TR/TD/DIV/TABLE/TR[2]/TD/P[2]</content_xpath>
+		</content>
+
+		<time>
+		    <time_xpath comment="相对路径">
+		    //DIV[@class="dsf"]
+		    </time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">//DIV[@class="dsf"]</reNum_xpath>
+		</reNum>
+
+	</item>
+	
+	<item name="中华铁路网" module="news_258_topic">
+		<describe>
+			<url>http://www.258.com.cn/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">//TD[@id="tdCaption"]</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+			//DIV[@class="dsf"]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+			//DIV[@class="dsf"]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">//TD[@id="tdNewsInfo"]</content_xpath>
+		</content>
+
+		<time>
+		    <time_xpath comment="相对路径">//TD[@id="tdNewsDate"]</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">//DIV[@class="dsf"]</reNum_xpath>
+		</reNum>
+
+	</item>
+	
+	
+<item name="首铁在线" module="news_036_topic">
+		<describe>
+			<url>http://www.036.com.cn/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//TD[@class='nblack14']
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//BODY/CENTER/TABLE[3]/TBODY/TR/TD[3]/CENTER/TABLE[2]/TBODY/TR/TD
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//BODY/CENTER/TABLE[3]/TBODY/TR/TD[3]/CENTER/TABLE[2]/TBODY/TR[2]/TD
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//SPAN[@class='ngray14']
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//BODY/CENTER/TABLE[3]/TBODY/TR/TD[3]/CENTER/TABLE[2]/TBODY/TR[2]/TD
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@id="replycounttop"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+	
+
+
+<item name="铁流" module="news_tieliu_topic">
+		<describe>
+			<url>http://www.tieliu.com.cn/ljdt2/list/list_182.html/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//BODY/TABLE[4]/TR/TD[1]/TABLE/TR/TD/TABLE/TR[2]/TD/TABLE/TR[1]/TD
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//SPAN[@class="A.linkpath"]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//BODY/TABLE[4]/TR/TD[1]/TABLE/TR/TD/TABLE/TR[2]/TD/TABLE/TR[6]/TD/TABLE/TR[3]/TD
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//SPAN[@class="main_tdbg_670t"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//BODY/TABLE[4]/TR/TD[1]/TABLE/TR/TD/TABLE/TR[2]/TD/TABLE/TR[3]/TD
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@id="replycounttop"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+<item name="南昌铁路局" module="news_nctlj_topic">
+		<describe>
+			<url>http://www.nctlj.com.cn/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//BODY/FORM/DIV[2]/TABLE[3]/TR/TD[2]/TABLE/TR[3]/TD/TABLE[1]/TR[1]/TD/H1
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+			   //BODY/FORM/DIV[2]/TABLE[3]/TR/TD[2]/TABLE/TR[1]/TD
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//BODY/FORM/DIV[2]/TABLE[4]/TR/TD/DIV/TABLE/TR/TD/DIV/FONT
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class="H3"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//BODY/FORM/DIV[2]/TABLE[3]/TR/TD[2]/TABLE/TR[3]/TD/TABLE[1]/TR[2]/TD/H2
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+			//BODY/FORM/DIV[2]/TABLE[3]/TR/TD[2]/TABLE/TR[3]/TD/TABLE[1]/TR[2]/TD/H2
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+<item name="上海铁路局" module="news_shrail_topic">
+		<describe>
+			<url>http://www.shrail.com/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//BODY/TABLE/TR/TD/TABLE/TR[2]/TD/DIV/P
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+			 //HEAD/TITLE
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@class="a1"]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//BODY/TABLE
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+			//BODY/TABLE/TR/TD/TABLE/TR[3]/TD/DIV/P	
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+			//SPAN[@id="replycounttop"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+<item name="济南铁路局" module="news_jntlj_topic">
+		<describe>
+			<url>http://www.jntlj.com/</url>
+		</describe>
+
+		<title>
+			<title_xpath comment="相对路径">
+				//TD[@id="title"]
+			</title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+			 //SPAN[@id="name"]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//P[@class="di4"]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//SPAN[@style='ggg']
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+			//SPAN[@id="pdate"]
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+			//SPAN[@id="replycounttop"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+	
+
+</bbs_pattern_body>

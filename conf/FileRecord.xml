@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opinion:items xmlns:opinion="http://www.example.org/OpinionXMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/OpinionXMLSchema ../XMLpattern/OpinionXMLSchema.xsd ">
+  <opinion:name>FileRecord</opinion:name>
+  <opinion:description>记录文件读取与备份文件架</opinion:description>
+  
+  <opinion:para>
+    <opinion:para_name>Path</opinion:para_name>
+    <opinion:para_value>E:\\crawlcontent</opinion:para_value>
+    <opinion:para_description>爬虫爬行文件存放位置</opinion:para_description>
+  </opinion:para>
+  
+  <opinion:para>
+    <opinion:para_name>BackupPath</opinion:para_name>
+    <opinion:para_value>E:\\backup\\</opinion:para_value>
+    <opinion:para_description>备份爬虫爬行文件存放位置</opinion:para_description>
+  </opinion:para>
+  
+  <opinion:para>
+    <opinion:para_name>LogPath</opinion:para_name>
+    <opinion:para_value>E:\\finalLog.txt</opinion:para_value>
+    <opinion:para_description>生日文件日志存放位置（请勿与爬虫爬行文件以及备份文件存放于同一文件架下）</opinion:para_description>
+  </opinion:para>
+  
+  
+</opinion:items>

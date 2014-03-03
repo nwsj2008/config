@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?><!-- Put site-specific property overrides in this file. --><configuration>
+<property>
+  <name>fetcher.server.delay</name>
+  <value>1</value>
+  <description>The number of seconds the fetcher will delay between 
+   successive requests to the same server.</description>
+</property>
+<property>
+  <name>http.max.delays</name>
+  <value>100</value>
+  <description>The number of times a thread will delay when trying to
+  fetch a page.  When using the crawl tool there are likely to be very
+  few different hosts, so we need to be willing to wait longer for
+  each.</description>
+</property>
+<property>
+  <name>plugin.folders</name>
+  <value>plugins</value>
+  <description>Directories where nutch plugins are located.  Each
+  element may be a relative or absolute path.  If absolute, it is used
+  as is.  If relative, it is searched for on the classpath.</description>
+</property>
+
+<property>
+  <name>http.agent.name</name>
+  <value>*</value>
+  <description>HTTP 'User-Agent' request header. MUST NOT be empty - 
+  please set this to a single word uniquely related to your organization.
+  NOTE: You should also check other related properties:
+	http.robots.agents
+	http.agent.description
+	http.agent.url
+	http.agent.email
+	http.agent.version
+  and set their values appropriately.
+  </description>
+</property>
+<property>
+  <name>crawl.output.path</name>
+  <value>CrawlContent</value>
+  <description>输出源文件目录</description>
+</property>
+<property>
+  <name>crawl.log.path</name>
+  <value>CrawlLog</value>
+  <description>输出log目录</description>
+</property>
+<property>
+  <name>crawl.changeinterval.count</name>
+  <value>3</value>
+  <description>重复n抓取内容没有改变时抓取间隔加倍</description>
+</property>
+
+<property>
+  <name>db.max.outlinks.per.page</name>
+  <value>3000</value>
+  <description>The maximum number of outlinks that we'll process for a page.
+  If this value is nonnegative (&gt;=0), at most db.max.outlinks.per.page outlinks
+  will be processed for a page; otherwise, all outlinks will be processed.
+  </description>
+</property>
+<property>
+  <name>http.content.limit</name>
+  <value>2000000</value>
+  <description>The length limit for downloaded content, in bytes.
+  If this value is nonnegative (&gt;=0), content longer than it will be truncated;
+  otherwise, no truncation at all.
+  </description>
+</property>
+<property>
+  <name>crawlfocus.google.firstpagenumber</name>
+  <value>10</value>
+  <description>聚焦时从google获取初始链接的个数，0表示10个，1表示20个</description>
+</property>
+<property>
+  <name>focuswebsite</name>
+  <value>false</value>
+  <description>是否进行网站过滤</description>
+</property>
+<property>
+  <name>focuscrawl.website</name>
+  <value>tianya/people</value>
+  <description>域名过滤条件,"/"分开</description>
+</property>
+<property>
+  <name>focuscrawl.website.topic</name>
+  <value>奥运</value>
+  <description>网站主题过滤条件,"/"分开</description>
+</property>
+<property>
+  <name>ditribute.host</name>
+  <value>192.168.1.102/202.112.157.45</value>
+  <description>分布式抓取的主机地址</description>
+</property>
+<property>
+  <name>ditribute.window.length</name>
+  <value>30</value>
+  <description>分布式URL发送队列的窗口长度</description>
+</property>
+<property>
+  <name>db.default.fetch.interval</name>
+   <value>30</value>
+  <description>网页抓取的时间间隔</description>
+</property>
+<property>
+  <name>fetcher.threads.per.host</name>
+   <value>10</value>
+  <description>每个主机的线程数</description>
+</property>
+<property>
+  <name>fetcher.threads.fetch</name>
+  <value>10</value>
+  <description>抓取线程数</description>
+</property>
+</configuration>

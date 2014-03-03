@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ICTCLAS>
+	<DataPath>Data</DataPath>
+	<TagSet>ICTPOS.map</TagSet>
+	<UserDict>on</UserDict>
+	<UserDictPrior>On</UserDictPrior>
+	<FieldDict>off</FieldDict>
+	<GranularityContorl>off</GranularityContorl>
+	<Log>On</Log>
+	<version>3.0</version>
+	<Modify>2006-12-22</Modify>
+	<Lexicon>2006-11-27</Lexicon>
+</ICTCLAS>
+

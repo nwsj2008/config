@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="GBK"?>
+<bbs_pattern_body>
+
+
+<item name="博客天下" module="blog_world_topic">
+		<describe>
+			<url>http://www.blog.com.cn/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				/HTML/BODY/DIV[2]/DIV[2]/DIV[2]/TABLE/TR[3]/TD/TABLE/TR/TD/TABLE/TR[2]/TD/STRONG
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id='subject_l']/UL/LI/A
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//SPAN[@class='style3']
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+			//SPAN[@class='oblog_text']
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//SPAN[@class='textbox-label']
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+			</retitle_xpath>
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//SPAN[@class='tex-label']/SPAN[2]/SPAN
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//SPAN[@class='oblo']/SPAN[1]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//SPAN[@class='textbox-l']/SPAN[1]
+			</retime_xpath>
+		</retime>
+	</item>
+
+<item name="南方网" module="bbs_southcn_topic">
+		<describe>
+			<url>http://bbs.southcn.com/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@id='threadtitle']/H1
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id='nav']/A[3]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@id='postlist']/DIV[1]/TABLE/TR[1]/TD[1]/DIV[1]/A
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+		//DIV[@class='postmessage firstpost']/DIV[2]/TABLE/TR/TD
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@id='postlist']/DIV[1]/TABLE/TR[1]/TD[2]/DIV[1]/DIV[@class='posterinfo']/DIV[2]/EM
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+			</retitle_xpath>
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//DIV[@id='postlist']/DIV[1]/TABLE/TR[1]/TD[1]/DIV[1]/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='postmessage firstpost']/DIV[2]/TABLE/TR/TD
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@id='postlist']/DIV[1]/TABLE/TR[1]/TD[2]/DIV[1]/DIV[@class='posterinfo']/DIV[2]/EM
+			</retime_xpath>
+		</retime>
+	</item>
+
+<item name="新华网论坛" module="forum_home_topic">
+		<describe>
+			<url>http://forum.home.news.cn/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+			//TD[@class='hei14']/TABLE/TR/TD/TABLE/TR/TD/B
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//SPAN[@class='bai12']/A
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//TD[@class='hei14']/TABLE/TR/TD/TABLE[2]/TR/TD/FONT/SPAN/A
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//TD[@class='hei14']/TABLE/TR/TD/TABLE[3]/TR/TD/SPAN
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//TD[@class='hei14']/TABLE/TR/TD/TABLE[2]/TR/TD/FONT
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+			</retitle_xpath>
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				/HTML/BODY/TABLE[4]/TR/TD/TABLE[3]/TR/TD/TABLE[3]/TR/TD/TABLE[2]/TR/TD/FONT/SPAN[2]/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//SPAN[@class='hei14']
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='forumMain']/DIV[@class='postBox']/DIV[1]/DIV[@class='postInfo']/DIV[2]/SPAN[2]
+			</retime_xpath>
+		</retime>
+	</item>
+
+	<item name="北方blog" module="blog_enorth_topic">
+		<describe>
+			<url>http://blog.enorth.com.cn/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[5]/TD[2]/P/TABLE[1]/TR/TD/P[1]/SPAN[1]
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[1]/TD/DIV/A[2]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[5]/TD[2]/P/TABLE[1]/TR/TD/P[1]/SPAN[2]
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				/HTML/BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[5]/TD[2]/P/TABLE/TR/TD/P[2]/SPAN/SPAN/STRONG
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[5]/TD[2]/P/TABLE[1]/TR/TD/P[1]/SPAN[2]
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[5]/TD[2]/P/TABLE[2]/TR/TD/P[1]/SPAN[1]
+			</retitle_xpath>
+
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//SPAN[@class='STYLE3']/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//SPAN[@class='01']
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//SPAN[@class='STYLE3']/A
+			</retime_xpath>
+		</retime>
+	</item>
+<item name="北方blog" module="blog_enorth_reply">
+		<describe>
+			<url>http://blog.enorth.com.cn/</url>
+			<hostname comment="楼主姓名循环初始值" />
+			<hostcontent comment="楼主发帖内容循环初始值" />
+			<hosttime comment="楼主发帖时间循环初始值" />
+			<othername comment="回帖姓名循环初始值">0</othername>
+			<othercontent comment="回帖内容循环初始值">0</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径" />
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径" />
+		</edition>
+		<author>
+			<author_xpath comment="相对路径" />
+		</author>
+		<content>
+			<content_xpath comment="相对路径" />
+		</content>
+		<time>
+			<time_xpath comment="相对路径" />
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径" />
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[5]/TD[2]/P/TABLE[2]/TR/TD/P[1]/SPAN[2]/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[5]/TD[2]/P/TABLE[2]/TR/TD/P[2]/SPAN
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//BODY/TABLE[2]/TR/TD/TABLE/TR/TD[3]/TABLE/TR[2]/TD/TABLE/TR[5]/TD[2]/P/TABLE[2]/TR/TD/P[1]/SPAN[2]
+			</retime_xpath>
+		</retime>
+	</item>
+
+<item name="21CN" module="bbs_21cn_topic">
+		<describe>
+			<url>http://free.21cn.com/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//BODY/TABLE[8]/TR/TD/TABLE/TR[2]/TD[2]/TABLE/TR[1]/TD[1]
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//TD[@class='conListVH1BLine']/A[2]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//BODY/TABLE[8]/TR/TD/TABLE/TR[2]/TD[1]/TABLE/TR[2]/P
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+					//BODY/TABLE[8]/TR/TD/TABLE/TR[2]/TD[2]/TABLE/TR[2]
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//BODY/TABLE[8]/TR/TD/TABLE/TR[1]/TD/TABLE/TR/TD[1]
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//BODY/TABLE[6]/TR/TD[12]
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//BODY/TABLE[10]/TR/TD/TABLE/TR[2]/TD[2]/TABLE/TR[1]/TD[1]
+			</retitle_xpath>
+
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//TD[@class="conListVTd3S"]/TABLE/TR[2]/TD/P
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//TD[@class="txt14px"]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//TABLE[@class="conListVIn" ]/TR[1]/TD/TABLE/TR/TD[1]
+			</retime_xpath>
+		</retime>
+	</item>
+<item name="21CN" module="bbs_21cn_reply">
+		<describe>
+			<url>http://free.21cn.com/</url>
+			<hostname comment="楼主姓名循环初始值" />
+			<hostcontent comment="楼主发帖内容循环初始值" />
+			<hosttime comment="楼主发帖时间循环初始值" />
+			<othername comment="回帖姓名循环初始值">0</othername>
+			<othercontent comment="回帖内容循环初始值">0</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径" />
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径" />
+		</edition>
+		<author>
+			<author_xpath comment="相对路径" />
+		</author>
+		<content>
+			<content_xpath comment="相对路径" />
+		</content>
+		<time>
+			<time_xpath comment="相对路径" />
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径" />
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//TD[@class="conListVTd3S"]/TABLE/TR[2]/TD/P
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//TD[@class="txt14px"]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//TABLE[@class="conListVIn" ]/TR[1]/TD/TABLE/TR/TD[1]
+			</retime_xpath>
+		</retime>
+	</item>
+
+<item name="中华网" module="club_china_topic">
+		<describe>
+			<url>http://club.china.com/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@class='topic']/DIV[@class='postHead']/H1
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@class='breadcrumbs']/A[3]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@class='topic']/DIV[@class='postInfo']/DIV[@class='authorInfo']/UL/LI[2]/SPAN/A[1]
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class='topic']/DIV[@class='postContent']
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='topic']/DIV[@class='postInfo']/DIV[@class='authorInfo']/UL/LI[1]
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//DIV[@class='adminBtn']
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+			</retitle_xpath>
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//DIV[@class='forumMain']/DIV[@class='postBox']/DIV[1]/DIV[@class='postInfo']/DIV[2]/SPAN/A[1]
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='forumMain']/DIV[@class='postBox']/DIV[3]/DIV[2]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='forumMain']/DIV[@class='postBox']/DIV[1]/DIV[@class='postInfo']/DIV[2]/SPAN[2]
+			</retime_xpath>
+		</retime>
+	</item>
+	<item name="中华网" module="club_china_reply">
+		<describe>
+			<url>http://club.china.com/</url>
+			<hostname comment="楼主姓名循环初始值" />
+			<hostcontent comment="楼主发帖内容循环初始值" />
+			<hosttime comment="楼主发帖时间循环初始值" />
+			<othername comment="回帖姓名循环初始值">0</othername>
+			<othercontent comment="回帖内容循环初始值">0</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径" />
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径" />
+		</edition>
+		<author>
+			<author_xpath comment="相对路径" />
+		</author>
+		<content>
+			<content_xpath comment="相对路径" />
+		</content>
+		<time>
+			<time_xpath comment="相对路径" />
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径" />
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//DIV[@class='forumMain']/DIV[@class='postBox']/DIV[1]/DIV[@class='author']/SPAN[1]/A[1]
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='forumMain']/DIV[@class='postBox']/DIV[3]/DIV[2]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='forumMain']/DIV[@class='postBox']/DIV[1]/DIV[@class='author']/SPAN[2]
+			</retime_xpath>
+		</retime>
+	</item>
+
+	<item name="网易" module="bbs_163_topic">
+		<describe>
+			<url>http://bbs.163.cn/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@class='articleTitle']/H3
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@class='position']/A[3]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@class='articleTop']/DIV/DIV/A
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class='articleTop']/DIV[2]/DIV[3]/DIV
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='articleTop']/DIV[2]/DIV/SPAN[2]
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//DIV[@class='listSub']/DIV[3]
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//DIV[@class='articleTitle']/H3
+			</retitle_xpath>
+
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//DIV[@class='articleReview']/DIV[@class='authorInfo']/DIV[@class='name']/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='articleReview']/DIV[2]/DIV[2]/DIV
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='articleReview']/DIV[2]/DIV/SPAN[2]
+			</retime_xpath>
+		</retime>
+	</item>
+	<item name="网易" module="bbs_163_reply">
+		<describe>
+			<url>http://bbs.163.cn/</url>
+			<hostname comment="楼主姓名循环初始值" />
+			<hostcontent comment="楼主发帖内容循环初始值" />
+			<hosttime comment="楼主发帖时间循环初始值" />
+			<othername comment="回帖姓名循环初始值">0</othername>
+			<othercontent comment="回帖内容循环初始值">0</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径" />
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径" />
+		</edition>
+		<author>
+			<author_xpath comment="相对路径" />
+		</author>
+		<content>
+			<content_xpath comment="相对路径" />
+		</content>
+		<time>
+			<time_xpath comment="相对路径" />
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径" />
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//DIV[@class='articleReview']/DIV[@class='authorInfo']/DIV[@class='name']/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='articleReview']/DIV[2]/DIV[2]/DIV
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='articleReview']/DIV[2]/DIV/SPAN[2]
+			</retime_xpath>
+		</retime>
+	</item>
+
+
+	<item name="新浪" module="bbs_sina_topic">
+		<describe>
+			<url>http://bbs.sina.com.cn/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">0</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				/HTML/BODY/DIV[3]/FORM/DIV/H1
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id='nav']/A[2]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//TD[@class='postauthor']/CITE/A
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class='t_msgfont']
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='postinfo']
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//DIV[@class='otherInfo']/P/SPAN[2]
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径" />
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//DIV[@class='uInfo']/P/A/STRONG
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='gModViewBox']/DIV/DIV[2]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='otherInfo']/P[2]
+			</retime_xpath>
+		</retime>
+	</item>
+
+	<item name="新浪" module="bbs_sina_reply">
+		<describe>
+			<url>http://bbs.sina.com.cn/</url>
+			<hostname comment="楼主姓名循环初始值" />
+			<hostcontent comment="楼主发帖内容循环初始值" />
+			<hosttime comment="楼主发帖时间循环初始值" />
+			<othername comment="回帖姓名循环初始值">0</othername>
+			<othercontent comment="回帖内容循环初始值">0</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径" />
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径" />
+		</edition>
+		<author>
+			<author_xpath comment="相对路径" />
+		</author>
+		<content>
+			<content_xpath comment="相对路径" />
+		</content>
+		<time>
+			<time_xpath comment="相对路径" />
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径" />
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//TD[@class='postauthor']/CITE/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='t_msgfont']
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='t_msgfont']
+			</retime_xpath>
+		</retime>
+	</item>
+
+	<item name="腾讯" module="bbs_qq_topic">
+		<describe>
+			<url>http://bbs.qq.com/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//SPAN[@class='font16 lan3']/STRONG
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//SPAN[@id='__naviLink']/A[1]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@id='contdc']/DL/DD/H2/SPAN[2]/A
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@id='main_content_div']/DIV
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@id='contdc']/DL1/DD/H2
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+			//SPAN[@class='ml20']
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+
+			</retitle_xpath>
+
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//SPAN[@class='lan3 uline']/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='nr cut']/P
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+
+			</retime_xpath>
+		</retime>
+	</item>
+	<item name="腾讯" module="bbs_qq_reply">
+		<describe>
+			<url>http://bbs.qq.com/</url>
+			<hostname comment="楼主姓名循环初始值" />
+			<hostcontent comment="楼主发帖内容循环初始值" />
+			<hosttime comment="楼主发帖时间循环初始值" />
+			<othername comment="回帖姓名循环初始值">0</othername>
+			<othercontent comment="回帖内容循环初始值">0</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径" />
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径" />
+		</edition>
+		<author>
+			<author_xpath comment="相对路径" />
+		</author>
+		<content>
+			<content_xpath comment="相对路径" />
+		</content>
+		<time>
+			<time_xpath comment="相对路径" />
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径" />
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//SPAN[@class='lan3 uline']/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@_content='Y']
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@id='contdc']/DL/DD/H2
+			</retime_xpath>
+		</retime>
+	</item>
+	
+	<item name="博客联盟" module="blog_blogunion_topic">
+		<describe>
+			<url>http://blogunion.org/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@class='post']/H1/A
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@class='postmeta']/P/A[1]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径">
+				//DIV[@class='postauthor']/P[1]/A[1]
+			</author_xpath>
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class="post"]
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='postauthor']/P
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//DIV[@class='postauthor']/P[1]/A[3]
+			</reNum_xpath>
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//DIV[@class='post']/H1/A
+			</retitle_xpath>
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+				//DIV[@class="comment-body"]/DIV/CITE/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class="comment-body"]/P[1]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class="comment-meta commentmetadata"]/A
+			</retime_xpath>
+		</retime>
+	</item>
+
+<item name="央视" module="blog_cctv_topic">
+		<describe>
+			<url>http://blog.cctv.com/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//H1[@id='oldsubject']
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id='show']/P[1]/A[3]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径"/>
+			        //DIV[@id='xspace-guide']/A[3]
+			
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class='xspace-itemmessage']/SPAN[1]
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='xspace-layout1']/DIV[@class='mainarea-side']/DIV[2]/DIV[1]/P[1]
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+                                //DIV[@class='xspace-layout1']/DIV[@class='mainarea-side']/DIV[2]/DIV[1]/P[3]/A[1]
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//DIV[@class='xspace-layout1']/DIV[@class='mainarea-side']/DIV[2]/DIV[1]/H1[1]
+			</retitle_xpath>
+			
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+			        //DIV[@class='xspace-layout1']/DIV[@class='mainarea-side']/DIV[2]/DIV[1]/DIV[3]/DL/DT	
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='xspace-layout1']/DIV[@class='mainarea-side']/DIV[2]/DIV[1]/DIV[3]/DL/DD
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='xspace-layout1']/DIV[@class='mainarea-side']/DIV[2]/DIV[1]/DIV[3]/DL/DT/SPAN[1]
+			</retime_xpath>
+		</retime>
+	</item>
+
+<item name="焦点" module="blog_myspace_topic">
+		<describe>
+			<url>http://blog.myspace.cn/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogTitle clearfix']/DIV[@class='lbmcrcbtTi']/H2/A
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogTitle clearfix']/DIV[@class='lbmcrcbtTi']/A
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径"/>
+			        //DIV[@class='lj_blogUtil clearfix']/DIV[@class='lbmcLeft']/DIV[@class='lbmclMyInfo lobmclMyInfo']/DIV[@class='lbmclName']/A	
+			
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogSummary sqlBlogPostFix']
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogTitle clearfix']/DIV[@class='lbmcrcbtTi']/CITE[1]
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+                                //DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogFun']/SAMP[2]
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogTitle clearfix']/DIV[@class='lbmcrcbtTi']/H2/A
+			</retitle_xpath>
+			
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+			        //DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI/TABLE[1]/TR[1]/TD[2]/DL[1]/DT[1]/A[1]	
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI/TABLE[1]/TR[1]/TD[2]/DL[1]/DD[1]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI/TABLE[1]/TR[1]/TD[2]/DL[1]/DT[1]/CITE[1]
+			</retime_xpath>
+		</retime>
+	</item>
+	<item name="焦点" module="blog_myspace_reply">
+		<describe>
+			<url>http://blog.myspace.cn/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogTitle clearfix']/DIV[@class='lbmcrcbtTi']/H2/A
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogTitle clearfix']/DIV[@class='lbmcrcbtTi']/A
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径"/>
+			        //DIV[@class='lj_blogUtil clearfix']/DIV[@class='lbmcLeft']/DIV[@class='lbmclMyInfo lobmclMyInfo']/DIV[@class='lbmclName']/A	
+			
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogSummary sqlBlogPostFix']
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogTitle clearfix']/DIV[@class='lbmcrcbtTi']/CITE[1]
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+                               //DIV[@class='lbmcrcBlogFun']/SAMP[2]
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//DIV[@class='lbmcrBlogCont']/DIV[@class='lbmcrcBlogTitle clearfix']/DIV[@class='lbmcrcbtTi']/H2/A
+			</retitle_xpath>
+			
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+			        //DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI/TABLE[1]/TR[1]/TD[2]/DL[1]/DT[1]/A[1]	
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI/TABLE[1]/TR[1]/TD[2]/DL[1]/DD[1]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI/TABLE[1]/TR[1]/TD[2]/DL[1]/DT[1]/CITE[1]
+			</retime_xpath>
+		</retime>
+	</item>
+	
+	<item name="搜狐" module="blog_sohu_topic">
+		<describe>
+			<url>http://blog.sohu.com/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+			//DIV[@id='articleInnerContent']/DIV[3]/DIV[2]/DIV/H3
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@class='innerContentLabelBox']/A[2]
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径"/>
+		//DIV[@class='innerContentLabelBox']/A[2]
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class='item-content']/DIV
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@id='articleInnerContent']/DIV[3]/DIV[2]/DIV/	H3
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+			
+                                //DIV[@id='item-body']/DIV[2]/SPAN[1]
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				
+			</retitle_xpath>
+			
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+			//DIV[@id='info-content']/DIV[3]/H3/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@id="comm_259137959"]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@id='info-content']/DIV[3]/H3div[2]/div[3]/h3
+			</retime_xpath>
+		</retime>
+	</item>
+	
+	
+	<item name="博客网" module="bokee_topic">
+		<describe>
+			<url>http://www.bokee.com/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@id='centerDiv']/DIV/DIV/DIV/DIV/DIV/H2
+			</title_xpath>	
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@class='rl entry-titlerl fenlei-Span']/A
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径"/>
+			        //DIV[@class='fbzt']/SPAN/SPAN[3]/A
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@class='entry-body nerr']
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@class='fbzt']/SPAN/SPAN
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+                                //DIV[@class='fbzt']/SPAN/A
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//DIV[@id='centerDiv']/DIV/DIV/DIV/DIV/DIV/H2
+			</retitle_xpath>
+			
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+			        //DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI[2]/TABLE[1]/TR[1]/TD[2]/DL[1]/DT[1]/A[1]	
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI[2]/TABLE[1]/TR[1]/TD[2]/DL[1]/DD[1]
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='lobmcrBlogComments']/OL[@class='lobmcrbcFeed']/LI[2]/TABLE[1]/TR[1]/TD[2]/DL[1]/DT[1]/CITE[1]
+			</retime_xpath>
+		</retime>
+	</item>
+	
+	
+	<item name="II博客" module="blog_ccidnet_topic">
+		<describe>
+			<url>http://blog.ccidnet.com/</url>
+			<hostname comment="楼主姓名循环初始值">0</hostname>
+			<hostcontent comment="楼主发帖内容循环初始值">0</hostcontent>
+			<hosttime comment="楼主发帖时间循环初始值">0</hosttime>
+			<othername comment="回帖姓名循环初始值">1</othername>
+			<othercontent comment="回帖内容循环初始值">1</othercontent>
+			<othertime comment="回帖时间循环初始值">0</othertime>
+		</describe>
+		<title>
+			<title_xpath comment="相对路径">
+				//DIV[@id='main']/DIV/DIV/H3
+			</title_xpath>
+		</title>
+		<edition>
+			<edition_xpath comment="相对路径">
+				//DIV[@id='main']/DIV/H2
+			</edition_xpath>
+		</edition>
+		<author>
+			<author_xpath comment="相对路径"/>
+			        //DIV[@class='wrap2']/DIV/DIV/DIV/DIV/DIV/H1/A
+		</author>
+		<content>
+			<content_xpath comment="相对路径">
+				// DIV[@id='main']/DIV/DIV/TABLE/TR/TD/P
+			</content_xpath>
+		</content>
+		<time>
+			<time_xpath comment="相对路径">
+				//DIV[@id='main']/DIV/DIV/DIV[2]
+			</time_xpath>
+		</time>
+		<reNum>
+			<reNum_xpath comment="相对路径" />
+		
+                                //DIV[@class='bb']/DIV/SPAN[@id='sum']
+                             
+		</reNum>
+		<retitle>
+			<retitle_xpath comment="相对路径">
+				//DIV[@id='main']/DIV/DIV/H2/H3
+				</retitle_xpath>	
+		</retitle>
+		<reauthor>
+			<reauthor_xpath comment="相对路径">
+			        //DIV[@class='comment bb']/SPAN/DL/DD[2]/A
+			</reauthor_xpath>
+		</reauthor>
+		<recontent>
+			<recontent_xpath comment="相对路径">
+				//DIV[@class='comment bb']/SPAN/DL/DD[3]/DIV
+			</recontent_xpath>
+		</recontent>
+		<retime>
+			<retime_xpath comment="相对路径">
+				//DIV[@class='comment bb']/SPAN/DL/DD[2]/SPAN[2]
+			</retime_xpath>
+		</retime>
+	</item>
+</bbs_pattern_body>

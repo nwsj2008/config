@@ -1,0 +1,3 @@
+Tianya TopicTitle@<a style=text-decoration:underline;[^>]*?><font color=white size=\+1>([^<]*?)</font></a>』(.*?)</font></TD></TR></table>
+Tianya Main@<FONT color=green size=-1>作者：<.*?>(.*?)</a>&nbsp;提交日期：(.*?) 访问：[0-9]*? 回复：([0-9]*?)</font></TD><TD WIDTH=137 ALIGN=RIGHT></TD></TR></table><div[^>]*?><DIV[^>]*?>(.*?)<T
+Tianya Re@<font size=-1 color=green><br><center>作者：<a[^>]*?>([^<].*?)</a>　回复日期：([^<].*?)</font>.*?</table>([^<].*?)<TABLE

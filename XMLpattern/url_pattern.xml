@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlpattern>
+
+<item name="首铁在线"  sort="topic" > 
+    <url>http://www.036.com.cn/</url>
+    <regex>(http://www\.036\.com\.cn/\w+/\w+\?\w+=\d+)</regex>
+    <module>news_036_topic</module>
+    <idName>036NEWS_</idName>
+    <prefix>/</prefix>
+    <sufix></sufix>
+ </item>
+  
+  <item name="铁流"  sort="topic" > 
+    <url>http://www.tieliu.com.cn/ljdt2/list/list_182.html</url>
+    <regex>(http://www\.tieliu\.com\.cn/\S+)</regex>
+    <module>news_tieliu_topic</module>
+    <idName>tieliuNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.html</sufix>
+ </item>
+
+<item name="南昌铁路局"  sort="topic" > 
+    <url>http://www.nctlj.com.cn/</url>
+    <regex>(http://www\.nctlj\.com\.cn/\S+)</regex>
+    <module>news_nctlj_topic</module>
+    <idName>nctljNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.aspx</sufix>
+ </item>
+ 
+ <item name="上海铁路局"  sort="topic" > 
+    <url>http://www.shrail.com/</url>
+    <regex>(http://www\.shrail\.com/\S+)</regex>
+    <module>news_shrail_topic</module>
+    <idName>shrailNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.asp</sufix>
+ </item>
+ 
+  <item name="济南铁路局"  sort="topic" > 
+    <url>http://www.jntlj.com/</url>
+    <regex>(http://www\.jntlj\.com/\S+)</regex>
+    <module>news_jntlj_topic</module>
+    <idName>jntljNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.aspx</sufix>
+ </item>
+ 
+
+
+<item name="太原铁路局" sort="topic"> 
+    <url> http:///www.tytlj.com.cn/newslist/</url>
+    <regex>(http://www\.tytlj\.com\.cn/newslist/view\.asp\?xwbh=\d+.wjlx=\d+)</regex>
+    <module>news_tytlj_topic</module>
+    <idName>tytljNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.asp</sufix>
+    </item>
+    
+    <item name="武汉铁路局" sort="topic"> 
+    <url> http://www.whrailway.cn/</url>
+    <regex>(http://www\.whrailway\.cn/\w+/\d+/\d+/\d+\.html)</regex>
+    <module>news_wh_topic</module>
+    <idName>whNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.html</sufix>
+    </item>
+    
+    <item name="中国铁道网" sort="topic"> 
+    <url> http://www.railcn.net/news/</url>
+    <regex>(http://www\.railcn\.net/news/\w+-\w+/\w+\.html)</regex>
+    <module>news_railcn_topic</module>
+    <idName>railcnNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.html</sufix>
+    </item>
+    
+    <item name="铁道部" sort="topic"> 
+    <url> http://www.china-mor.gov.cn/</url>
+    <regex>(http://www\.china-mor\.gov\.cn/detail\.jsp\?\w+=\w+)</regex>
+    <module>news_mor_topic</module>
+    <idName>morNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.jsp</sufix>
+    </item>
+   
+   <item name="中华铁路网" sort="topic"> 
+    <url> http://www.258.com.cn/</url>
+    <regex>(http://www\.258\.com\.cn/NewsInfo\.aspx\?NewsID=\d+)</regex>
+    <module>news_258_topic</module>
+    <idName>258NEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.aspx</sufix>
+    </item>
+
+<item name="博客天下" sort="topic">
+
+		<url>http://www.blog.com.cn/</url>
+		<regex>(http://\w+\.blog\.com\.cn/archives/\d+/\d+\.shtml)</regex>
+		<module>blog_world_topic</module>
+		<idName>Blog_world</idName>
+		<prefix>/</prefix>
+		<sufix>.shtml</sufix>
+	</item>
+
+<item name="北方blog" sort="topic">
+
+		<url>http://blog.enorth.com.cn/</url>
+		<regex>(http://\w+\.blog\.enorth\.com\.cn/\w+/\d+\.shtml)</regex>
+		<module>blog_enorth_topic</module>
+		<idName>enorthBlog_</idName>
+		<prefix>/</prefix>
+		<sufix>.shtml</sufix>
+	</item>
+
+	<item name="北方blog" sort="reply">
+
+		<url>http://blog.enorth.com.cn/</url>
+		<regex>(http://\w+\.blog\.enorth\.com\.cn/\w+/\d+\.shtml)</regex>
+		<module>blog_enorth_reply</module>
+		<idName>enorthBlog_</idName>
+		<prefix>/</prefix>
+		<sufix>.shtml</sufix>
+	</item>
+	
+	<item name="21CN" sort="topic">
+
+		<url>http://free.21cn.com/</url>
+		<regex>(http://free\.21cn\.com/\w+/\w+\.\w+\?\w+=1.\w+=\d+)</regex>
+		<module>bbs_21cn_topic</module>
+		<idName>21cnBBS_</idName>
+		<prefix>/</prefix>
+		<sufix></sufix>
+	</item>
+
+	<item name="21CN" sort="reply">
+
+		<url>http://free.21cn.com/</url>
+		<regex>(http://free\.21cn\.com/\w+/\w+\.\w+\?\w+=[^1]+.\w+=\d+)</regex>
+		<module>bbs_21cn_reply</module>
+		<idName>21cnBBS_</idName>
+		<prefix>/</prefix>
+		<sufix></sufix>
+	</item>
+
+	<item name="搜狐博客" sort="topic">
+		<url>http://blog.sohu.com/</url>
+		http://wujiaxiangblog.blog.sohu.com/141422163.html
+		http://wangchaocyd.blog.sohu.com/141493329.html
+		<regex>(http://\w+\.blog\.sohu\.com/\d+\.html)</regex>
+		<module>blog_sohu_topic</module>
+		<idName>sohuBLOG_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+	
+	<item name="央视博客" sort="topic">
+		<url>http://blog.cctv.com/</url>
+		http://blog.cctv.com/html/99/806199-1081970.html
+		<regex>(http://blog\.cctv\.com/\w+/\d+/\d+-\d+\.html)</regex>
+		<module>blog_cctv_topic</module>
+		<idName>cctvBLOG_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+	
+	<item name="焦点博客" sort="topic">
+		<url>http://blog.myspace.cn/</url>
+		<regex>(http://blog\.myspace\.cn/e/\d+\.htm(\?\w+=\w+)?)</regex>
+		<module>blog_myspace_topic</module>
+		<idName>myspaceBLOG_</idName>
+		<prefix>/</prefix>
+		<sufix>.htm</sufix>
+	</item>
+	
+	<item name="IT博客" sort="topic">
+		<url>http://blog.ccidnet.com/</url>
+		<regex>(http://\w+\.blog\.ccidnet\.com/blog-htm-itemid-\d+-uid-\d+-do-showone-type-blog\.html|http://\w+\.blog\.ccidnet\.com/blog-htm-do-showone-uid-\d+-type-blog-itemid-\d+\.html)</regex>
+		<module>blog_ccidnet_topic</module>
+		<idName>ccidnetBLOG_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+	
+	<item name="百度空间" sort="topic">
+		<url>http://hi.baidu.com/</url>
+		<regex>(http://(apps\.)?hi\.baidu\.com.*?/item/\w+\.html|http://apps\.hi\.baidu\.com/\w+/\w+/\w+(\?vote_id=\d+)?)</regex>
+		<module>hi_baidu_topic</module>
+		<idName>baiduBLOG_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+<item name="博客网" sort="topic">
+		<url>http://www.bokee.com/</url>
+		<regex>(http://\w+\.bokee\.com/\w+(/\w+\.\d+)?\.\d+\.html)</regex>
+		<module>bokee_topic</module>
+		<idName>bokeeBLOG_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+
+<item name="南方论坛" sort="topic">
+
+		<url>http://bbs.southcn.com/</url>
+		<regex>(http://bbs\.southcn\.com/\w+-\d+-1-1\.html)</regex>
+		<module>bbs_southcn_topic</module>
+		<idName>SOUTHCNBBS_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+
+<item name="新华社区" sort="topic">
+
+		<url>http://forum.home.news.cn/</url>
+		<regex>(http://forum\.home\.news\.cn/detail/\d+/1.html)</regex>
+		<module>forum_home_topic</module>
+		<idName>HOMEFORUM_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+
+	<item name="中华网论坛" sort="topic">
+
+		<url>http://club.china.com/</url>
+		<regex>(http://club\.china\.com/data/thread/\d+/\d+/\d+/\d+/\d_1\.html)</regex>
+		<module>club_china_topic</module>
+		<idName>CHINABBS_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+
+	<item name="中华网论坛" sort="reply">
+
+		<url>http://club.china.com/</url>
+		<regex>(http://club\.china\.com/data/thread/\d+/\d+/\d+/\d+/\d_[^1]+\.html)</regex>
+		<module>club_china_reply</module>
+		<idName>CHINABBS_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+
+<item name="博客联盟" sort="topic"> 
+    <url>http://blogunion.org/</url>
+    <regex>(http://blogunion\.org/\S+/(\S+\.html)|(/\S+\.html))</regex>
+    <module>blog_blogunion_topic</module>
+    <idName>blogunionBLOG_</idName>
+    <prefix>/</prefix>
+    <sufix>.html</sufix>
+ </item>
+
+ <item name="新浪新闻" sort="topic"> 
+    <url> http://news.sina.com.cn/</url>
+    <regex>(http://news\.sina\.com\.cn/\w/\d+-\d+-\d+/\d+\.(s)?html)</regex>
+    <module>news_sina_topic</module>
+    <idName>sinaNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.shtml</sufix>
+    </item>
+   
+   <item name="凤凰新闻" sort="topic"> 
+    <url> http://news.ifeng.com/</url>
+    <regex>(http://news\.ifeng\.com/\w+/\d+/\w+\.shtml)</regex>
+    <module>news_ifeng_topic</module>
+    <idName>ifengNEWS_</idName>
+    <prefix>/</prefix>
+    <sufix>.shtml</sufix>
+    </item>
+
+
+	<item name="网易新闻" sort="topic">
+		<url>http://news.163.com</url>
+		<regex>(http://news\.163\.com/\d+/\d+/\d+/\w+\.html)</regex>
+		<module>news_163_topic</module>
+		<idName>163NEWS_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+	
+	<item name="搜狐新闻" sort="topic">
+	    <url>http://news.sohu.com/</url>
+		<regex>(http://news\.sohu\.com/\d+/\w+\.shtml)</regex>
+		<module>news_sohu_topic</module>
+		<idName>sohuNEWS_</idName>
+		<prefix>/</prefix>
+		<sufix>.shtml</sufix>
+	</item>
+	
+	<item name="腾讯新闻" sort="topic">
+	    <url>http://news.qq.com/</url>
+		<regex>(http://news\.qq\.com/\w/\d{8}/\d+\.htm)</regex>
+		<module>news_qq_topic</module>
+		<idName>qqNEWS_</idName>
+		<prefix>/</prefix>
+		<sufix>.htm</sufix>
+	</item>
+	
+	<item name="雅虎新闻" sort="topic">
+		<url>http://news.cn.yahoo.com</url>
+		<regex>(http://news\.cn\.yahoo\.com/\d{2}-\d{2}-/\d+/\w+\.html)</regex>
+		<module>news_yahoo_topic</module>
+		<idName>yahooNEWS_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+
+    <item name="中国新闻网" sort="topic">
+		<url>http://www.chinanews.com.cn</url>
+		<regex>(http://www\.chinanews\.com\.cn/\w+/\w*-\w*/news/\d+/\d+-\d+/\d+\.shtml)</regex>
+		<module>news_chinanews_topic</module>
+		<idName>chinaNEWS_</idName>
+		<prefix>/</prefix>
+		<sufix>.shtml</sufix>
+	</item>
+	
+	<item name="北京新闻网" sort="topic">
+		<url>http://beijing.qianlong.com</url>
+		<regex>(http://beijing\.qianlong\.com/\d+/\d{4}/\d{2}/\d{2}/\d+@\d+\.htm)</regex>
+		<module>news_beijingnews_topic</module>
+		<idName>beijingNEWS_</idName>
+		<prefix>/</prefix>
+		<sufix>.htm</sufix>
+	</item>
+
+
+	<item name="网易论坛" sort="topic">
+		<url>http://bbs.163.com</url>
+		<regex>(http://bbs\.\w+\.(\w+\.)?163\.com/bbs/\w+/\d+\.html)</regex>
+		<module>bbs_163_topic</module>
+		<idName>163BBS_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+
+	<item name="网易论坛" sort="reply">
+		<url>http://bbs.163.com</url>
+		<regex>(http://bbs\.\w+\.(\w+\.)?163\.com/bbs/\w+/\d+,\d+\.html)</regex>
+		<module>bbs_163_reply</module>
+		<idName>163BBS_</idName>
+		<prefix>/</prefix>
+		<sufix>,</sufix>
+	</item>
+
+ 	<item name="新浪论坛" sort="topic">
+
+		<url>http://bbs.sina.com.cn/</url>
+		<regex>(http://(forum|club).\w+.sina.com.cn/(bbs/)?thread-\d+-1-1.html|http://\w+.bbs.\w+.sina.com.cn/thread-\w+-1.html)</regex>
+		<module>bbs_sina_topic</module>
+		<idName>SINABBS_</idName>
+		<prefix>/</prefix>
+		<sufix>.html</sufix>
+	</item>
+
+	<item name="新浪论坛" sort="reply">
+
+		<url>http://bbs.sina.com.cn/</url>
+		<regex>(http://(forum|club).\w+.sina.com.cn/(bbs/)?thread-\d+-([^1]|\d\d+)-1.html|http://\w+.bbs.\w+.sina.com.cn/thread-\w+-([^1]|\d\d+).html)</regex>
+		<module>bbs_sina_reply</module>
+		<idName>SINABBS_</idName>
+		<prefix>/</prefix>
+		<sufix>-</sufix>
+	</item>
+
+<item name="腾讯论坛" sort="topic">
+
+		<url>http://bbs.qq.com/</url>
+		<regex>(http://bbs\.\w+\.qq\.com/b-\d+/\d+(-1)?\.htm)</regex>
+		<module>bbs_qq_topic</module>
+		<idName>QQBBS_</idName>
+		<prefix>/</prefix>
+		<sufix>.htm</sufix>
+	</item>
+
+	<item name="腾讯论坛" sort="reply">
+
+		<url>http://bbs.qq.com/</url>
+		<regex>(http://bbs\.\w+\.qq\.com/b-\d+/\d+-\d+\.html)</regex>
+		<module>bbs_qq_reply</module>
+		<idName>QQBBS_</idName>
+		<prefix>/</prefix>
+		<sufix>-</sufix>
+	</item>
+</urlpattern>

@@ -1,0 +1,78 @@
+package edu.opinion.preprocess.pattern;
+
+public class BbsData {
+	
+	String title;
+	String edition;
+	String author;
+	String content = "";
+	String time;
+	String reNum;
+	String[] retitle;
+	String[] reauthor;
+	String[] recontent;
+	String[] retime;
+	
+
+	public String[] getRetitle() {
+		return retitle;
+	}
+	public void setRetitle(String[] retitle) {
+		this.retitle = retitle;
+	}
+	public String[] getReauthor() {
+		return reauthor;
+	}
+	public void setReauthor(String[] reauthor) {
+		this.reauthor = reauthor;
+	}
+	public String[] getRecontent() {
+		return recontent;
+	}
+	public void setRecontent(String[] recontent) {
+		this.recontent = recontent;
+	}
+	public String[] getRetime() {
+		return retime;
+	}
+	public void setRetime(String[] retime) {
+		this.retime = retime;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getEdition() {
+		return edition;
+	}
+	public void setEdition(String edition) {
+		this.edition = edition;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public String getTime() {
+		return time;
+	}
+	public void setTime(String time) {
+		this.time = time;
+	}
+	public String getReNum() {
+		return reNum;
+	}
+	public void setReNum(String reNum) {
+		this.reNum = reNum;
+	}
+	
+}
